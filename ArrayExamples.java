@@ -37,7 +37,7 @@ public class ArrayExamples {
     for(double num: arr) {
       if(num < lowest) { lowest = num; }
     }
-    double sum = 0;
+    double sum = 0.0;
     for(double num: arr) {
       if(num != lowest) { sum += num; }
     }
